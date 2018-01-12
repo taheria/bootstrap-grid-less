@@ -1,0 +1,9 @@
+{
+  "name": "bootstrap-grid-less",
+  "version": "1.0.0",
+  "description": "Less version of Bootstrap V4.0 grid system (By Flex) with minor customisation",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Abolfazl Taheri",
+  "license": "MIT"
+}
