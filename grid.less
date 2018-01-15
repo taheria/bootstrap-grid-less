@@ -1,9 +1,4 @@
-// main: grid.less, out: grid.min.css, compress: true
-
-/* ==========================Variables========================= */
-
-@cols-count: 12;
-@pad: 15px;
+// main: ./master.less
 
 /* ===========================Layout=========================== */
 
@@ -28,8 +23,8 @@ html {
   min-width: 320px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: @pad;
-  padding-left: @pad;
+  padding-right: @gutter;
+  padding-left: @gutter;
 }
 
 .row {
@@ -37,8 +32,8 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: -@pad;
-  margin-left: -@pad;
+  margin-right: -@gutter;
+  margin-left: -@gutter;
   &.no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -264,8 +259,8 @@ html {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: @pad;
-  padding-left: @pad;
+  padding-right: @gutter;
+  padding-left: @gutter;
 }
 .each-modes();
 
