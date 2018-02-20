@@ -1,5 +1,11 @@
 // main: ./usage-example.less
 
+/**
+  Author: Abolfazl Taheri
+  Version: 1.1.3
+  Rewrited Bootstrap Grid v4.0.0 in LESS
+*/
+
 /* ===========================Layout=========================== */
 
 @-ms-viewport {
@@ -279,28 +285,28 @@ html {
 
 /* ========================MediaQueries======================== */
 
-@media (max-width: 48rem) {
+@media @sm {
   .container {
     max-width: 77rem;
   }
   .make-mode(-sm);
 }
 
-@media (min-width: 49rem) {
+@media @md {
   .container {
     max-width: 72rem;
   }
   .make-mode(-md);
 }
 
-@media (min-width: 62rem) {
+@media @lg {
   .container {
     max-width: 96rem;
   }
   .make-mode(-lg);
 }
 
-@media (min-width: 75rem) {
+@media @xl {
   .container {
     max-width: 114rem;
   }
